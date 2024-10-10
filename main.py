@@ -1,6 +1,7 @@
 import streamlit as st
 from get_description import get_meaning
 
+print("file running...")
 # Define the test function
 def test(query):
     # Replace this with your logic
