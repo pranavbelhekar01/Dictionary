@@ -16,7 +16,7 @@ llm = GoogleGenerativeAI(
     max_retries=2,
 )
 
-def get_meaning(query: str):
+def get_meaning(query: str, context: str):
     prompt = ChatPromptTemplate.from_messages(
         [
             (
@@ -31,6 +31,7 @@ def get_meaning(query: str):
     response = chain.invoke(
         {
             "query": query,
+            "context": context
         }
     )
     return response
