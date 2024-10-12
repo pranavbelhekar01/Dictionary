@@ -62,7 +62,3 @@ This dictionary agent is built on **Streamlit**, providing an interactive web ap
 - 📊 **Integration with Thesaurus APIs**: For a broader range of synonyms and usage examples.
 - 🗣️ **User Feedback System**: Allow users to provide feedback on the suggestions for continuous improvement.
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
